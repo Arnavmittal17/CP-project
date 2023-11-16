@@ -8,14 +8,14 @@ from user.models import User_profile
 
 API_ENDPOINT = "https://api.jdoodle.com/v1/execute"
 
-client_id = "aa3c5e94ced8d771cb0a961ce09643e1"
-client_secret = "300f819850eb030070e6e1e81eeb8cedfdb2d8445364d2801fb33bb4f647df83"
+client_id = "2fa071e557985ea0c83222e82950de59"
+client_secret = "bdda69dd30f54355cd5878b26e97d97ad13b2c5cae62fede7010c72b2039ea82"
 
 LANG_CODE = { 'c': 1, 'java': 3, 'cpp14': 3, 'python3': 3,'go': 3,
             'sql': 3,'csharp': 3,'dart': 3,'nodejs': 3,'kotlin': 2,'brainfuck': 0,}
 
 
-@login_required(login_url='/accounts/login/')
+# @login_required(login_url='/accounts/login/')
 def code_editor(request):
     return render(request,'code_editor.html')
 
