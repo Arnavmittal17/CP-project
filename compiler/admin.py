@@ -1,6 +1,5 @@
 from django.contrib import admin
 from .models import Question
-# Create a new question
 # new_question = Question(
 #     qno=1,
 #     text='What is the capital of France?',
@@ -14,7 +13,7 @@ from .models import Question
 #     tc2_sol='Paris',
 #     tc3_sol='Paris'
 # )
-# new_question.save()  # Save the question to the database
+# new_question.save() 
 question1 = Question(
     qno=1,
     text="Write a Python function to calculate the factorial of a number.",
@@ -85,7 +84,6 @@ question5 = Question(
     tc3_sol="3"
 )
 question5.save()
-# Example 6
 question6 = Question(
     qno=6,
     text="Write a Python function to check if a string is a palindrome.",
@@ -101,7 +99,6 @@ question6 = Question(
 )
 question6.save()
 
-# Example 7
 question7 = Question(
     qno=7,
     text="Create a Python function to find the sum of digits of a number.",
@@ -327,8 +324,68 @@ question21 = Question(
 )
 question21.save()
 
-question18 = Question(
-    qno=18,
+question22 = Question(
+    qno=22,
+    text="Write a Python function to count the occurrences of each element in a list and return it as a dictionary.",
+    testcaseno=3,
+    samplein="1 2 2 3 3 3",
+    sampleout="{'1': 1, '2': 2, '3': 3}",
+    tc1="a a a b b c",
+    tc2="1 1 1 1 1",
+    tc3="x y z x y z x y z",
+    tc1_sol="{'a': 3, 'b': 2, 'c': 1}",
+    tc2_sol="{'1': 5}",
+    tc3_sol="{'x': 3, 'y': 3, 'z': 3}"
+)
+question22.save()
+
+question23 = Question(
+    qno=23,
+    text="Create a Python program to find the intersection of two given lists.",
+    testcaseno=3,
+    samplein="1 2 3 4 5 : 3 4 5 6 7",
+    sampleout="[3, 4, 5]",
+    tc1="a b c : b c d",
+    tc2="10 20 30 40 : 30 40 50 60",
+    tc3="x y z : z w",
+    tc1_sol="['b', 'c']",
+    tc2_sol="[30, 40]",
+    tc3_sol="['z']"
+)
+question23.save()
+
+question24 = Question(
+    qno=24,
+    text="Write a Python program to remove duplicates from a list while preserving the order.",
+    testcaseno=3,
+    samplein="1 2 2 3 4 4 5",
+    sampleout="[1, 2, 3, 4, 5]",
+    tc1="a a b c c",
+    tc2="100 200 100 300 200",
+    tc3="x y x z y y",
+    tc1_sol="['a', 'b', 'c']",
+    tc2_sol="[100, 200, 300]",
+    tc3_sol="['x', 'y', 'z']"
+)
+question24.save()
+
+question25 = Question(
+    qno=25,
+    text="Create a Python function to check if a given number is a prime number.",
+    testcaseno=3,
+    samplein="7",
+    sampleout="True",
+    tc1="15",
+    tc2="29",
+    tc3="1",
+    tc1_sol="False",
+    tc2_sol="True",
+    tc3_sol="False"
+)
+question25.save()
+
+question26 = Question(
+    qno=26,
     text="Write a Python function to find the second largest number in a list.",
     testcaseno=3,
     samplein="3 5 2 9 6",
@@ -340,10 +397,10 @@ question18 = Question(
     tc2_sol="100",
     tc3_sol="2"
 )
-question18.save()
+question26.save()
 
-question19 = Question(
-    qno=19,
+question27 = Question(
+    qno=27,
     text="Create a Python program to find the sum of all even numbers in a list.",
     testcaseno=3,
     samplein="2 5 8 10 3",
@@ -355,10 +412,10 @@ question19 = Question(
     tc2_sol="112",
     tc3_sol="0"
 )
-question19.save()
+question27.save()
 
-question20 = Question(
-    qno=20,
+question28 = Question(
+    qno=28,
     text="Write a Python program to check if a string is a pangram or not.",
     testcaseno=3,
     samplein="The quick brown fox jumps over the lazy dog",
@@ -370,10 +427,10 @@ question20 = Question(
     tc2_sol="True",
     tc3_sol="True"
 )
-question20.save()
+question28.save()
 
-question21 = Question(
-    qno=21,
+question29 = Question(
+    qno=29,
     text="Create a Python program to sort words in a given sentence in alphabetical order.",
     testcaseno=3,
     samplein="This is an example sentence.",
@@ -385,7 +442,7 @@ question21 = Question(
     tc2_sol="Let's Python code in",
     tc3_sol="easy is Sorting words"
 )
-question21.save()
+question29.save()
 
 
 admin.site.register(Question)
