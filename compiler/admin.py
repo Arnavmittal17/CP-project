@@ -147,5 +147,245 @@ question9 = Question(
 )
 question9.save()
 
+question10 = Question(
+    qno=10,
+    text="Write a Python function to check if a number is a perfect number or not.",
+    testcaseno=3,
+    samplein="28",
+    sampleout="True",
+    tc1="6",
+    tc2="12",
+    tc3="496",
+    tc1_sol="True",
+    tc2_sol="False",
+    tc3_sol="True"
+)
+question10.save()
+
+question11 = Question(
+    qno=11,
+    text="Create a Python program to find the LCM (Least Common Multiple) of two numbers.",
+    testcaseno=3,
+    samplein="12 15",
+    sampleout="60",
+    tc1="7 13",
+    tc2="18 27",
+    tc3="4 10",
+    tc1_sol="91",
+    tc2_sol="54",
+    tc3_sol="20"
+)
+question11.save()
+
+question12 = Question(
+    qno=12,
+    text="Write a Python function to check if a string is an anagram of another string.",
+    testcaseno=4,
+    samplein="listen silent",
+    sampleout="True",
+    tc1="hello olleh",
+    tc2="openai aiopen",
+    tc3="python typhon",
+    tc1_sol="True",
+    tc2_sol="True",
+    tc3_sol="False"
+)
+question12.save()
+
+question13 = Question(
+    qno=13,
+    text="Create a Python program to find the factorial of a number using recursion.",
+    testcaseno=3,
+    samplein="5",
+    sampleout="120",
+    tc1="0",
+    tc2="3",
+    tc3="7",
+    tc1_sol="1",
+    tc2_sol="6",
+    tc3_sol="5040"
+)
+question13.save()
+
+question14 = Question(
+    qno=14,
+    text="Write a Python program to check if a given string is a valid palindrome ignoring non-alphanumeric characters.",
+    testcaseno=3,
+    samplein="A man, a plan, a canal, Panama!",
+    sampleout="True",
+    tc1="race car",
+    tc2="hello",
+    tc3="Was it a car or a cat I saw?",
+    tc1_sol="True",
+    tc2_sol="False",
+    tc3_sol="True"
+)
+question14.save()
+
+question15 = Question(
+    qno=15,
+    text="Create a Python function to find the number of vowels in a string.",
+    testcaseno=3,
+    samplein="Hello, World!",
+    sampleout="3",
+    tc1="OpenAI",
+    tc2="programming",
+    tc3="a e i o u",
+    tc1_sol="3",
+    tc2_sol="3",
+    tc3_sol="5"
+)
+question15.save()
+
+question16 = Question(
+    qno=16,
+    text="Write a Python program to check if two strings are anagrams of each other.",
+    testcaseno=3,
+    samplein="listen silent",
+    sampleout="True",
+    tc1="hello olleh",
+    tc2="openai aiopen",
+    tc3="python typhon",
+    tc1_sol="True",
+    tc2_sol="True",
+    tc3_sol="False"
+)
+question16.save()
+
+question17 = Question(
+    qno=17,
+    text="Create a Python program to reverse words in a given sentence.",
+    testcaseno=3,
+    samplein="Hello, OpenAI!",
+    sampleout="olleH !IANepo",
+    tc1="Python is awesome",
+    tc2="Let's code",
+    tc3="Reverse this sentence",
+    tc1_sol="nohtyP si emosewa",
+    tc2_sol="s'teL edoc",
+    tc3_sol="esreveR siht ecnetnes"
+)
+question17.save()
+
+question18 = Question(
+    qno=18,
+    text="Write a Python function to find the second largest number in a list.",
+    testcaseno=3,
+    samplein="3 5 2 9 6",
+    sampleout="6",
+    tc1="10 20 15 5",
+    tc2="100 200 50 25 75",
+    tc3="1 3 2",
+    tc1_sol="15",
+    tc2_sol="100",
+    tc3_sol="2"
+)
+question18.save()
+
+question19 = Question(
+    qno=19,
+    text="Create a Python program to find the sum of all even numbers in a list.",
+    testcaseno=3,
+    samplein="2 5 8 10 3",
+    sampleout="20",
+    tc1="11 13 15 17",
+    tc2="22 26 30 34",
+    tc3="1 3 5 7 9",
+    tc1_sol="0",
+    tc2_sol="112",
+    tc3_sol="0"
+)
+question19.save()
+
+question20 = Question(
+    qno=20,
+    text="Write a Python program to check if a string is a pangram or not.",
+    testcaseno=3,
+    samplein="The quick brown fox jumps over the lazy dog",
+    sampleout="True",
+    tc1="Hello, World!",
+    tc2="Pack my box with five dozen liquor jugs",
+    tc3="abcdefghijklmnopqrstuvwxyz",
+    tc1_sol="False",
+    tc2_sol="True",
+    tc3_sol="True"
+)
+question20.save()
+
+question21 = Question(
+    qno=21,
+    text="Create a Python program to sort words in a given sentence in alphabetical order.",
+    testcaseno=3,
+    samplein="This is an example sentence.",
+    sampleout="This an example is sentence.",
+    tc1="OpenAI is awesome",
+    tc2="Let's code in Python",
+    tc3="Sorting words is easy",
+    tc1_sol="AI is awesome Open",
+    tc2_sol="Let's Python code in",
+    tc3_sol="easy is Sorting words"
+)
+question21.save()
+
+question18 = Question(
+    qno=18,
+    text="Write a Python function to find the second largest number in a list.",
+    testcaseno=3,
+    samplein="3 5 2 9 6",
+    sampleout="6",
+    tc1="10 20 15 5",
+    tc2="100 200 50 25 75",
+    tc3="1 3 2",
+    tc1_sol="15",
+    tc2_sol="100",
+    tc3_sol="2"
+)
+question18.save()
+
+question19 = Question(
+    qno=19,
+    text="Create a Python program to find the sum of all even numbers in a list.",
+    testcaseno=3,
+    samplein="2 5 8 10 3",
+    sampleout="20",
+    tc1="11 13 15 17",
+    tc2="22 26 30 34",
+    tc3="1 3 5 7 9",
+    tc1_sol="0",
+    tc2_sol="112",
+    tc3_sol="0"
+)
+question19.save()
+
+question20 = Question(
+    qno=20,
+    text="Write a Python program to check if a string is a pangram or not.",
+    testcaseno=3,
+    samplein="The quick brown fox jumps over the lazy dog",
+    sampleout="True",
+    tc1="Hello, World!",
+    tc2="Pack my box with five dozen liquor jugs",
+    tc3="abcdefghijklmnopqrstuvwxyz",
+    tc1_sol="False",
+    tc2_sol="True",
+    tc3_sol="True"
+)
+question20.save()
+
+question21 = Question(
+    qno=21,
+    text="Create a Python program to sort words in a given sentence in alphabetical order.",
+    testcaseno=3,
+    samplein="This is an example sentence.",
+    sampleout="This an example is sentence.",
+    tc1="OpenAI is awesome",
+    tc2="Let's code in Python",
+    tc3="Sorting words is easy",
+    tc1_sol="AI is awesome Open",
+    tc2_sol="Let's Python code in",
+    tc3_sol="easy is Sorting words"
+)
+question21.save()
+
 
 admin.site.register(Question)
